@@ -1,2 +1,11 @@
+[project]
+name = "splunk-mock"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+	"fastapi",
+	"pydantic",
+]
+
 [tool.vercel]
 entrypoint = "api.splunk_mock:app"
