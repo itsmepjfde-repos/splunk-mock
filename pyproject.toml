@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "api.splunk_mock:app"
